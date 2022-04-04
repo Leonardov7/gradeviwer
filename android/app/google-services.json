@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "635382717225",
+    "project_id": "gradeviewer-d2d57",
+    "storage_bucket": "gradeviewer-d2d57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635382717225:android:589589c6176b1ed1643538",
+        "android_client_info": {
+          "package_name": "co.edu.ucundinamarca.gradeviwer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635382717225-7m52tnf1m1eia86aogss485b6minf761.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDrf_m3yPqk5wPyRlJssnM3nbL7nqbKO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635382717225-7m52tnf1m1eia86aogss485b6minf761.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
