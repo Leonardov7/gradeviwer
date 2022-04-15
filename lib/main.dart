@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-
+import '';
+import 'View/DataInside.dart';
 import 'View/Login.dart';
 
 void main() {
@@ -26,9 +27,9 @@ class HomeStart extends State<Home> {
     return MaterialApp(
       title: 'Bienvenidos App Línea 2',
       home: Scaffold(
-        backgroundColor: Colors.grey,
+        backgroundColor: const Color(0xFFFFFFFF),
         appBar: AppBar(
-          backgroundColor: Colors.black45,
+          backgroundColor: const Color(0xFF00482B),
           title: Text('Visor de calificaciones'),
         ),
         body: SingleChildScrollView(
@@ -47,14 +48,25 @@ class HomeStart extends State<Home> {
                 Padding(padding: EdgeInsets.all(10),
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(minimumSize: Size(500,50),
-                    primary: Colors.black45,),
+                    primary: const Color(0xFF4E4B48),),
                   onPressed: (){
                     Navigator.push(context,
                         MaterialPageRoute(builder: (_) => Login()));
                   },
                   child: Text('Ingresar'),
                 ),
-                )
+                ),
+                Padding(padding: EdgeInsets.all(10),
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(minimumSize: Size(500,50),
+                      primary: const Color(0xFF4E4B48),),
+                    onPressed: (){
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (_) => DataInside()));
+                    },
+                    child: Text('Ingresar datos'),
+                  ),
+                ),
               ],
             ),
           ),
